@@ -1,0 +1,64 @@
+@media screen and (max-width: 600px) {
+  .title{
+    font-size: 20px;
+  }
+  .directions {
+    font-size: 15px;
+    width: 300px;
+  }
+  
+  @keyframes slider {
+    0% {right:20px; top:0px;}
+    21.05% {right:20px; top:63.15px;}
+    57.84% {right:20px;  top:173.52px}
+    100% {right:20px; top:300px;}
+  }
+
+  .timer {
+    display: grid;
+    grid-template-columns: 55px 80px;
+    margin-left: 45%;
+    margin-right: 45%;
+  }
+
+/*timer animation  div*/
+  .timer__animation {
+    width: 55px;
+  }
+  
+  .timer__animation__slider {
+    width: 20px;
+    height: 5px;
+    margin-bottom: 0px;
+  }
+
+  .timer__animation__holdmarker {
+    position: absolute;
+    height: 5px;
+    width: 35px;
+    top: 63.15px;
+    left: 0px;
+  }
+
+  .timer__animation__exhalemarker {
+    height: 5px;
+    width: 35px;
+    top: 173.52px;
+    left: 0px;
+  }
+
+  .timer__animation__scale {
+    width: 30px;
+    height: 300px;
+    margin-top: 0px;
+  }
+  /* timer animation text */
+  .timer__text {
+    width: 100px;
+    height: 300px;
+    grid-template-columns: 0;
+    grid-template-rows: 63.15px 110.37px 189.63px;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+}
