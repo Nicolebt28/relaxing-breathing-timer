@@ -1,0 +1,17 @@
+.directions__container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 605px;
+}
+
+.directions {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  width: 300px;
+  margin-top: 0px;
+  text-align: left;
+  color: #0F4337;
+  display: inline-block;
+}
