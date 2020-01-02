@@ -1,5 +1,5 @@
-@media screen and (max-width: 600px) {
-  .title{
+/*@media screen and (max-width: 600px) {
+  .directions__title{
     font-size: 20px;
   }
 
@@ -31,7 +31,7 @@
     margin-right: auto;
   }
 
-/*timer animation  div*/
+/*timer animation  div
   .timer__animation {
     width: 55px;
     display: grid;
@@ -48,7 +48,7 @@
   .timer__animation__holdmarker {
     position: absolute;
     height: 5px;
-    width: 35px;
+    width: 30px;
     top: 63.15px;
     left: 0px;
     grid-area: 1 / 2 / 1 / 3;
@@ -56,7 +56,7 @@
 
   .timer__animation__exhalemarker {
     height: 5px;
-    width: 35px;
+    width: 30px;
     top: 173.52px;
     left: 0px;
     grid-area: 1 / 2 / 1 / 3;
@@ -68,7 +68,7 @@
     margin-top: 0px;
     grid-area: 1 / 2 / 1 / 3;
   }
-  /* timer animation text */
+  /* timer animation text 
   .timer__text {
     width: 25px;
     height: 300px;

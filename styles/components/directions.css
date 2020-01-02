@@ -1,17 +1,40 @@
+.directions__title{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #0F4337;
+  margin-bottom: 30px;
+}
+
 .directions__container {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  width: 605px;
+  width: 60vw;
 }
 
 .directions {
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   line-height: 20px;
-  width: 300px;
+  width: 60vw;
   margin-top: 0px;
   text-align: left;
   color: #0F4337;
   display: inline-block;
+}
+
+@media (min-width: 800px) {
+.directions__title{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.directions__container {
+  width: 605px;
+}
+
+.directions {
+  width: 300px;
+}
 }
