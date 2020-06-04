@@ -1,0 +1,28 @@
+.title__container{
+  display: flex;
+  align-items: stretch;
+}
+
+.directions__title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.title__leaf {
+  height: 30px;
+  transform: rotate(45deg);
+}
+
+@media (min-width: 800px) {
+  .directions__title{
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .title__leaf {
+    height: 50px;
+  }
+}

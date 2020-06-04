@@ -30,7 +30,21 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  background-color: #68E3C7;
+	background: linear-gradient(-45deg,#18899d,#43cea2)
+;	background-size: 300% 300%;
+	animation: gradient 19s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+	background-position: 0% 50%;
+}
+50% {
+	background-position: 100% 50%;
+}
+100% {
+	background-position: 0% 50%;
+}
 }
 
 blockquote, q {
